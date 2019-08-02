@@ -4,8 +4,8 @@ class ItemMenu extends Component {
   render() {
     return (
       <div>
-        <div className="item-menu header-text">
-          <h2>{this.props.nome}</h2>
+        <div className="nav-item nav-link item-menu item-menu-text">
+          <span>{this.props.nome}</span>
         </div>
       </div>
     );
