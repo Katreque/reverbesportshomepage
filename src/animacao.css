@@ -1,0 +1,40 @@
+.anim-container {
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.primeiro {
+    animation: showup 7s forwards;
+}
+
+.segundo {
+    width:0px;
+    animation: reveal 7s forwards;
+}
+
+.texto-animado {
+    margin-left: -230px;
+    animation: slidein 7s forwards;
+}
+
+@keyframes showup {
+    0% {opacity: 0;}
+    20% {opacity: 1;}
+    80% {opacity: 1;}
+    100% {opacity: 1;}
+}
+
+@keyframes slidein {
+    0% { margin-left: -800px; }
+    20% { margin-left: 0px; }
+    35% { margin-left: 0px; }
+    100% { margin-left: 0px; }
+}
+
+@keyframes reveal {
+    0% {opacity: 0; width: 0px;}
+    20% {opacity: 1; width: 230px;}
+    30% {width: 230px;}
+    80% {opacity: 1;}
+    100% {opacity: 1; width: 230px;}
+}

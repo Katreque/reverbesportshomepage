@@ -2,6 +2,20 @@
   background-color: rgba(37, 24, 64, 0.95);
 }
 
+.second-part-color {
+  background-color: rgb(17, 8, 37);
+}
+
+.third-part-color {
+  background-color: rgb(18, 11, 51);
+}
+
+.linha-divisao-container {
+  background-color: white;
+  padding: 2px;
+  box-shadow: 0 2px 0 #e0e0e0, 0 0 2px rgba(0,0,0,.12), 0 2px 4px rgba(0,0,0,.24);
+}
+
 .item-menu {
   width: 200px;
   border: solid white;
@@ -19,4 +33,27 @@
   background-color: rgba(22, 12, 41, 0.95);
   transition: 0.5s;
   cursor: pointer;
+}
+
+.sub-titulo {
+  padding: 30px;
+  font-size: 60px;
+  color: white;
+  font-family: 'Anton', sans-serif;
+  text-align: center;
+}
+
+.sub-titulo-mobile {
+  padding: 15px;
+  font-size: 35px;
+  color: white;
+  font-family: 'Anton', sans-serif;
+  text-align: center;
+}
+
+.sub-titulo-text {
+  padding-top: 10px; 
+  font-size: 22px;
+  color: white;
+  font-family: 'Anton', sans-serif;
 }

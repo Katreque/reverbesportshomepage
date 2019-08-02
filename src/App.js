@@ -2,6 +2,7 @@ import React from 'react';
 import ItemMenu from './components/ItemMenu.js';
 
 import FundoHeader from './_headerReverb.png';
+import FormacaoTime from './_formacaoTime.png';
 import './App.css';
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <div>
         <img src={FundoHeader} className="img-fluid" alt="HeaderBG" />
       </div>
+
       <div className="d-none d-sm-block">
         <ul className="nav justify-content-center main-menu-color">
           <li className="nav-item">
@@ -41,6 +43,40 @@ function App() {
             </div>
           </div>
         </nav>
+      </div>
+
+      <div className="linha-divisao-container"></div>
+
+      <div className="d-none d-sm-block second-part-color">
+        <div className="sub-titulo">
+          <div className="anim-container primeiro">É hora de </div>
+          <div className="anim-container segundo">
+            <span className="anim-container texto-animado">Ressoar!</span>
+          </div>
+        </div>
+      </div>
+
+      <div className="d-block d-sm-none second-part-color">
+        <div className="sub-titulo-mobile">
+          <div className="anim-container">
+            <span className="anim-container texto-animado">É hora de Ressoar!</span>
+          </div>
+        </div>
+      </div>
+
+      <div className="second-part-color">
+        <div className="container">
+          <div className="row">
+            <div className="col-sm-12">
+              <div className="card text-center mb-2">
+                <img src={FormacaoTime} className="img-fluid" alt="HeaderBG" />
+                <div className="card-body">
+                  <h5 className="card-title">Nosso Time (Kappa)</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
